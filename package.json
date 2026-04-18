@@ -1,5 +1,5 @@
 {
-  "name": "scrape-fast",
+  "name": "@vasquezmyguy-collab/scrape-fast",
   "version": "1.0.0",
   "description": "Lightning-fast web scraper CLI — extract text, links, images, metadata, and structured data from any URL",
   "main": "src/index.js",
@@ -40,5 +40,8 @@
   },
   "engines": {
     "node": ">=16.0.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }
