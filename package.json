@@ -1,0 +1,44 @@
+{
+  "name": "scrape-fast",
+  "version": "1.0.0",
+  "description": "Lightning-fast web scraper CLI — extract text, links, images, metadata, and structured data from any URL",
+  "main": "src/index.js",
+  "bin": {
+    "scrape-fast": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "keywords": [
+    "scraper",
+    "web-scraper",
+    "cli",
+    "puppeteer",
+    "data-extraction",
+    "headless",
+    "pdf",
+    "screenshot",
+    "stealth",
+    "crawling",
+    "seo"
+  ],
+  "author": "Vasquez Ventures",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^22.0.0",
+    "yargs": "^17.7.0",
+    "chalk": "^4.1.2",
+    "ora": "^5.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vasquezmyguy-collab/scrape-fast.git"
+  },
+  "homepage": "https://github.com/vasquezmyguy-collab/scrape-fast",
+  "bugs": {
+    "url": "https://github.com/vasquezmyguy-collab/scrape-fast/issues"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
